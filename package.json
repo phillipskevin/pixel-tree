@@ -1,0 +1,27 @@
+{
+  "name": "pixel-tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kevin Phillips <kphillips86@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "can-component": "^4.0.4",
+    "can-define": "^2.0.3",
+    "can-observation": "^4.0.1",
+    "can-reflect": "^1.13.3",
+    "can-simple-observable": "^2.0.3",
+    "can-stache-converters": "^4.0.2",
+    "steal": "^1.9.1",
+    "steal-less": "^1.2.2"
+  },
+  "steal": {
+    "plugins": [
+      "steal-less"
+    ]
+  }
+}
